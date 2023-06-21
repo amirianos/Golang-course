@@ -1,0 +1,12 @@
+types of memory:
+stack
+heap
+
+
+a=9,b=4 => this method write 9 to a and 4 on b section in monory blocks
+
+but what memory does when we asign an array to a variable. in this position array data save in heap memory and then save heap memory address in stack memory
+
+
+when you asign a block of data to in stack memory to heap memory .if that variabe deleted in stack memory , what will be happen to heap memory?
+Garbage collector comes to the game in this part. garbage collector delete all unasigned heap memory
